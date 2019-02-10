@@ -37,6 +37,8 @@ These details _will_ remain **hidden** until expanded.
 
 ## 図
 
+### SVG
+
 ![draw.io](drawio.svg)
 
 ---
@@ -55,9 +57,21 @@ These details _will_ remain **hidden** until expanded.
 
 ![yEd](structure.svg)
 
+### PNG
+
+![Pencil](structure-pencil.png)
+
 ---
 
 ![yEd](structure.png)
+
+---
+
+![yEd](git-branches.png)
+
+---
+
+![yEd](structure-yed.png)
 
 ## mermaid
 
