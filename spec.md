@@ -55,6 +55,10 @@ These details _will_ remain **hidden** until expanded.
 
 ![yEd](structure.svg)
 
+---
+
+![yEd](structure.png)
+
 ## mermaid
 
 ```mermaid
