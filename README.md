@@ -55,11 +55,23 @@ These details _will_ remain **hidden** until expanded.
 
 ---
 
+![OpenOffice Draw](structure-openoffice-draw.svg)
+
+---
+
 ![yEd](structure.svg)
 
 ### PNG
 
 ![Pencil](structure-pencil.png)
+
+---
+
+![LibreOffice Draw](structure-libreoffice-draw.png)
+
+---
+
+![OpenOffice Draw](structure-openoffice-draw.png)
 
 ---
 
