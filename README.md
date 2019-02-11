@@ -1,33 +1,64 @@
-# ヘッダ
+# Markdown ドキュメント
 
-## 構成
+> このリポジトリは GitLab で管理し GitHub へミラーリングしています。
 
-## 仕様
+## 箇条書き
 
 - A であること
 - B であること
 
-| 項目 | 説明 |
-| ---- | ---- |
-| a    | 1    |
-| b    | 2    |
+## 表
+
+|            | 状況 |
+| ---------- | ---- |
+| GitLab     | o    |
+| GitHub     | o    |
+| VSCode MPE | o    |
+| Typora     | o    |
 
 | Left Aligned | Centered | Right Aligned | Left Aligned | Centered | Right Aligned |
 | :----------- | :------: | ------------: | :----------- | :------: | ------------: |
 | Cell 1       |  Cell 2  |        Cell 3 | Cell 4       |  Cell 5  |        Cell 6 |
 | Cell 7       |  Cell 8  |        Cell 9 | Cell 10      | Cell 11  |       Cell 12 |
 
-You can add footnotes to your text as follows.[^2]
-[^2]: This is my awesome footnote.
+## 脚注
+
+|            | 状況 |
+| ---------- | ---- |
+| GitLab     | o    |
+| GitHub     | x    |
+| VSCode MPE | o    |
+| Typora     | △    |
+
+この脚注は GitLab 用のもので、GitHub では動作しない。Typora ではポップアップ表示されるが脚注部分がそのままの位置に表示される。[^2]
+[^2]: これは脚注です。
+
+## details と summary
+
+|            | 状況 |
+| ---------- | ---- |
+| GitLab     | o    |
+| GitHub     | o    |
+| VSCode MPE | o    |
+| Typora     | x    |
 
 <details>
-<summary>Click me to collapse/fold.</summary>
+<summary>この部分は GitLab、GitHub では展開/折りたたみ可能だがTyporaでは常に展開してしまう</summary>
 
 These details _will_ remain **hidden** until expanded.
 
     PASTE LOGS HERE
 
 </details>
+
+## タスク
+
+|            | 状況 |
+| ---------- | ---- |
+| GitLab     | o    |
+| GitHub     | o    |
+| VSCode MPE | o    |
+| Typora     | o    |
 
 - [x] Completed task
 - [ ] Incomplete task
@@ -39,41 +70,43 @@ These details _will_ remain **hidden** until expanded.
 
 ### SVG
 
-![draw.io](drawio.svg)
+|            | 表示 |
+| ---------- | ---- |
+| GitLab     | x    |
+| GitHub     | o    |
+| VSCode MPE | o    |
+| Typora     | o    |
 
----
+#### yEd による SVG
 
 ![yEd](structure-yed.svg)
 
 ---
 
+![yEd](structure.svg)
+
+#### Pencil による SVG
+
 ![Pencil](structure-pencil.svg)
 
----
+#### LibreOffice Draw による SVG
 
 ![LibreOffice Draw](structure-libreoffice-draw.svg)
 
----
+#### OpenOffice Draw による SVG
 
 ![OpenOffice Draw](structure-openoffice-draw.svg)
 
----
-
-![yEd](structure.svg)
-
 ### PNG
 
-![Pencil](structure-pencil.png)
+|            | 表示 |
+| ---------- | ---- |
+| GitLab     | o    |
+| GitHub     | o    |
+| VSCode MPE | o    |
+| Typora     | o    |
 
----
-
-![LibreOffice Draw](structure-libreoffice-draw.png)
-
----
-
-![OpenOffice Draw](structure-openoffice-draw.png)
-
----
+#### yEd による PNG
 
 ![yEd](structure.png)
 
@@ -85,7 +118,28 @@ These details _will_ remain **hidden** until expanded.
 
 ![yEd](structure-yed.png)
 
+#### Pencil による PNG
+
+![Pencil](structure-pencil.png)
+
+#### LibreOffice Draw による PNG
+
+![LibreOffice Draw](structure-libreoffice-draw.png)
+
+#### OpenOffice Draw による PNG
+
+![OpenOffice Draw](structure-openoffice-draw.png)
+
 ## mermaid
+
+|            | 図の表示 |
+| ---------- | -------- |
+| GitLab     | o        |
+| GitHub     | x        |
+| VSCode MPE | o        |
+| Typora     | o        |
+
+### シーケンス図
 
 ```mermaid
 sequenceDiagram
@@ -115,7 +169,7 @@ sequenceDiagram
     Bob-->>John: Jolly good!
 ```
 
----
+#### フローチャート
 
 ```mermaid
 graph LR
